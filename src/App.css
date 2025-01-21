@@ -1,0 +1,6 @@
+.saumon-gradient-text {
+    background: linear-gradient(to right, rgb(12, 77, 255), #9daaf2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
