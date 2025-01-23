@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import "swiper/css";
@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import { Autoplay, EffectCards, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import bannerBg from "../assets/img/bannerbg.webp";
-import { projectsData, toastMessages } from "../assets/lib/data";
+import { projectsData } from "../assets/lib/data";
 import { useSectionInView } from "../assets/lib/hooks";
 import { useLanguage } from "../context/language-context";
 import LiveTicker from "./ParallaxText";
@@ -24,13 +24,6 @@ const ProjectSlider: React.FC = () => {
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-  () => {
-    if (language === "FR") {
-      toast.info(toastMessages.loadingProject.fr);
-    } else {
-      toast.info(toastMessages.loadingProject.en);
-    }
-  };
 
   return (
     <React.Fragment>
@@ -155,12 +148,29 @@ const ProjectSlider: React.FC = () => {
                 className="bg-darkblue flex flex-col gap-10 w-[80%] h-full  border-lightblue border-[0.4rem] p-8 rounded-xl mb-10 min-[1024px]:hidden max-lg:w-[90%]"
               >
                 <h2 className="text-white">{project.title}</h2>
-                <p className="text-white  max-lg:text-4xl">
-                  {language === "FR"
+                <div className="flex flex-col gap-2">
+                  <h3 className="text-white font-semibold">{project.company}</h3>
+                  <h4 className="text-white text-lg">{project.date}</h4>
+                </div>
+                <ul className="text-white list-disc pl-5 space-y-2 text-lg max-lg:pl-3 max-lg:text-xl max-lg:space-y-1">
+                  {(language === "FR"
                     ? project.description
-                    : project.description_EN}
-                </p>
-
+                    : project.description_EN
+                  ).map((line, index) => (
+                    <li
+                      key={index}
+                      className="max-lg:list-item"
+                      style={{
+                        marginBottom: "1rem", // Espacement entre les lignes
+                        lineHeight: "1.6", // Hauteur de ligne
+                        fontSize: "1.5rem", // Taille de police
+                        whiteSpace: "pre-line", // Gestion du retour à la ligne
+                      }}
+                    >
+                      {line}
+                    </li>
+                  ))}
+                </ul>
                 <div className="technologies">
                   <h3 className="text-white">
                     {language === "FR" ? "Technologies" : "Technologies"}
