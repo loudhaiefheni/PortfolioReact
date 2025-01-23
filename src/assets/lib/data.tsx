@@ -383,7 +383,7 @@ export const sideBarLeftSocials = [
     altimgname: "mail",
   },
   {
-    link: "https://drive.google.com/file/d/1EiH6-4kVAw-WDzNEYWf8hkGNk1V_32M3/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1OEdMv1O_NrL1JS8jFCOKv_Wgoq8vwfGx/view?usp=sharing",
     icon: FiFileText,
     altimgname: "cv",
   },

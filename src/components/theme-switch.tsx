@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import {
-  BsFillEnvelopeAtFill,
-  BsGithub,
-  BsLinkedin,
-  BsMoon,
-  BsSun,
+    BsFillEnvelopeAtFill,
+    BsGithub,
+    BsLinkedin,
+    BsMoon,
+    BsSun,
 } from "react-icons/bs";
 import { PiReadCvLogoFill } from "react-icons/pi";
 import { Link } from "react-router-dom";
@@ -152,7 +152,7 @@ export default function ThemeSwitch() {
         aria-label="Import CV"
       >
         <a
-          href="https://drive.google.com/file/d/1EiH6-4kVAw-WDzNEYWf8hkGNk1V_32M3/view?usp=drive_link" 
+          href="https://drive.google.com/file/d/1OEdMv1O_NrL1JS8jFCOKv_Wgoq8vwfGx/view?usp=sharing" 
           download="HENI_LOUDHAIEF_CV.pdf" 
           target="_blank"
           rel="noopener noreferrer"
