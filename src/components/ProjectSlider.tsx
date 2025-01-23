@@ -98,7 +98,9 @@ const ProjectSlider: React.FC = () => {
                     </h2>
                     <div className="flex flex-col gap-2">
                       <h3 className="font-semibold">{project.company}</h3>
-                      <h4 className="text-lg">{project.date}</h4>
+                      <h4 className="text-lg">
+                        {language === "FR" ? project.date.fr : project.date.en}
+                      </h4>
                     </div>
                     <ul className="text-white list-disc pl-5 space-y-2 text-lg max-lg:pl-3 max-lg:text-xl max-lg:space-y-1">
                       {(language === "FR"
@@ -149,8 +151,12 @@ const ProjectSlider: React.FC = () => {
               >
                 <h2 className="text-white">{project.title}</h2>
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-white font-semibold">{project.company}</h3>
-                  <h4 className="text-white text-lg">{project.date}</h4>
+                  <h3 className="text-white font-semibold">
+                    {project.company}
+                  </h3>
+                  <h4 className="text-white text-lg">
+                    {language === "FR" ? project.date.fr : project.date.en}
+                  </h4>
                 </div>
                 <ul className="text-white list-disc pl-5 space-y-2 text-lg max-lg:pl-3 max-lg:text-xl max-lg:space-y-1">
                   {(language === "FR"

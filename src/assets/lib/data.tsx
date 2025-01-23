@@ -58,7 +58,10 @@ export const projectsData = [
     title: "Développeur Web Full Stack",
     title_EN: "Full Stack Web Developer",
     company: "Sopra Steria x Orange",
-    date: "Mars 2024 - Septembre 2024",
+    date: {
+      fr: "Mars 2024 - Septembre 2024",
+      en: "March 2024 - September 2024",
+    },
     description: [
       "Participer au développement et à la validation des composants back-end et front-end dans deux projets distincts : l'un basé sur Next.js et Nest.js, et l'autre sur React et Node.js, tous deux liés à des services PaaS du Orange.",
       "Développé et implémenté plus de 25 nouvelles fonctionnalités et résolu plus de 10 bugs en développant et en testant les composants back-end et front-end pour le portail PaaS.",
@@ -102,18 +105,21 @@ export const projectsData = [
     title: "Développeur Web Full Stack",
     title_EN: "Full Stack Developer (E-commerce)",
     company: "LEAD WIRE",
-    date: "May 2023 - July 2023",
+    date: {
+      fr: "Mai 2023 - Juillet 2023",
+      en: "May 2023 - July 2023",
+    },
     description: [
       "Conception et développement d'une application de commerce électronique Full Stack avec Angular et Spring Boot, offrant une expérience utilisateur fluide.",
       "Création d'un panier d'achat et traitement sécurisé des paiements par carte de crédit via l'API Stripe, garantissant la confiance des utilisateurs.",
       "Utilisation efficace d'une base de données MySQL pour le stockage des données, assurant une gestion optimale des informations.",
-      "Optimisation des performances de l'application pour une navigation rapide et une expérience utilisateur fluide, améliorant la satisfaction des clients."
+      "Optimisation des performances de l'application pour une navigation rapide et une expérience utilisateur fluide, améliorant la satisfaction des clients.",
     ],
     description_EN: [
       "Designed and developed a full-stack e-commerce application using Angular and Spring Boot, providing a seamless user experience.",
       "Implemented a shopping cart and secure credit card payment processing via the Stripe API, ensuring user trust.",
       "Efficiently utilized a MySQL database for data storage, ensuring optimal information management.",
-      "Optimized application performance for fast navigation and a smooth user experience, enhancing customer satisfaction."
+      "Optimized application performance for fast navigation and a smooth user experience, enhancing customer satisfaction.",
     ],
     technologies: [
       { name: "Angular", icon: angularicon },
@@ -134,21 +140,24 @@ export const projectsData = [
     title: "Stagiaire DevOps",
     title_EN: "DevOps Intern",
     company: "ATTIJARIWAFA BANK",
-    date: "June 2022 - August 2022",
+    date: {
+      fr: "Juin 2022 - Août 2022",
+      en: "June 2022 - August 2022",
+    },
     description: [
       "Participation à la mise en œuvre de pipelines CI/CD avec Jenkins, incluant des étapes d'intégration et de déploiement automatisé.",
       "Conteneurisation d’applications avec Docker, création d'images personnalisées et gestion des registres Docker pour les environnements de développement et de test.",
       "Contribution à l’orchestration d’applications à l’aide de Kubernetes, notamment via la configuration de fichiers YAML pour les déploiements, services, et secrets.",
       "Écriture de playbooks Ansible pour automatiser la configuration des serveurs et les déploiements applicatifs sur différents environnements.",
-      "Collaboration avec l'équipe technique pour résoudre des problèmes liés aux déploiements et à la gestion des environnements."
-    ],    
+      "Collaboration avec l'équipe technique pour résoudre des problèmes liés aux déploiements et à la gestion des environnements.",
+    ],
     description_EN: [
       "Contributed to the implementation of CI/CD pipelines with Jenkins, including automated integration and deployment stages.",
       "Containerized applications using Docker, created custom images, and managed Docker registries for development and testing environments.",
       "Orchestrated applications using Kubernetes, including YAML configuration for deployments, services, and secrets.",
       "Wrote Ansible playbooks to automate server configuration and application deployment across various environments.",
-      "Collaborated with the technical team to resolve issues related to deployments and environment management."
-    ],    
+      "Collaborated with the technical team to resolve issues related to deployments and environment management.",
+    ],
     technologies: [
       { name: "Jenkins", icon: jenkinsicon },
       { name: "Docker", icon: dockericon },
@@ -167,13 +176,16 @@ export const projectsData = [
     title: "Full Stack Web Developer",
     title_EN: "DevOps Intern",
     company: "ARAB SOFT",
-    date: "Février 2021 - Juin 2021",
+    date: {
+      fr: "Février 2021 - Juin 2021",
+      en: "February 2021 - June 2021",
+    },
     description: [
-      "Développement d'une application web pour la gestion de ventes à crédit, avec utilisation de Laravel, JavaScript, HTML5 et CSS."
-    ],    
+      "Développement d'une application web pour la gestion de ventes à crédit, avec utilisation de Laravel, JavaScript, HTML5 et CSS.",
+    ],
     description_EN: [
-      "Developed a web application for credit sales management, using Laravel, JavaScript, HTML5, and CSS."
-    ],    
+      "Developed a web application for credit sales management, using Laravel, JavaScript, HTML5, and CSS.",
+    ],
     technologies: [
       { name: "Laravel", icon: laravelicon },
       { name: "JavaScript", icon: javascripticon },
