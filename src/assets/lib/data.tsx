@@ -103,7 +103,7 @@ export const projectsData = [
   },
   {
     title: "Développeur Web Full Stack",
-    title_EN: "Full Stack Developer (E-commerce)",
+    title_EN: "Full Stack Developer",
     company: "LEAD WIRE",
     date: {
       fr: "Mai 2023 - Juillet 2023",
@@ -173,8 +173,8 @@ export const projectsData = [
     },
   },
   {
-    title: "Full Stack Web Developer",
-    title_EN: "DevOps Intern",
+    title: "Développeur Web Full Stack",
+    title_EN: "Full Stack Web Developer",
     company: "ARAB SOFT",
     date: {
       fr: "Février 2021 - Juin 2021",
