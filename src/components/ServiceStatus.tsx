@@ -1,4 +1,3 @@
-import axios from "axios";
 import React, { useEffect } from "react";
 
 const ServiceStatus: React.FC = () => {
@@ -27,7 +26,7 @@ const ServiceStatus: React.FC = () => {
   useEffect(() => {
     async function getStatusData() {
       try {
-        const response = await axios.get(apiServiceStatusURL);
+        // const response = await axios.get(apiServiceStatusURL);
         // setStatus(response.data.heartbeatResponse.serviceStatus);
       } catch (error) {
         console.error("Failed to get status from backend:", error);
