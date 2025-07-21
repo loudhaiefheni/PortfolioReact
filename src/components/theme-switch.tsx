@@ -152,7 +152,7 @@ export default function ThemeSwitch() {
         aria-label="Import CV"
       >
         <a
-          href="https://drive.google.com/file/d/1k1Pvxc3ehdsG2X8jBjhdXdzjKyb1amyL/view?usp=drive_link" 
+          href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:2ad5ac23-007d-47da-a53e-055626fbbc70" 
           download="HENI_LOUDHAIEF_CV.pdf" 
           target="_blank"
           rel="noopener noreferrer"
