@@ -400,7 +400,7 @@ export const sideBarLeftSocials = [
     altimgname: "mail",
   },
   {
-    link: "https://acrobat.adobe.com/id/urn:aaid:sc:EU:2ad5ac23-007d-47da-a53e-055626fbbc70",
+    link: "https://pdfelementcloud.wondershare.com/share/review/_OJvEyjCcc6UhuLzllFTJIh-K0Z8OxE8xsLsa3MuCrobzxsj6avYF35wLKPwo3uivoHqFQfgjHMZtZNFFqeTLK3hyZhWASDLRNrdKgY0G-U",
     icon: FiFileText,
     altimgname: "cv",
   },
