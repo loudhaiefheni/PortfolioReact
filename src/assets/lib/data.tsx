@@ -17,7 +17,6 @@ import htmlicon from "../../assets/icons/htmlicon.svg";
 import javascripticon from "../../assets/icons/javascripticon.svg";
 import jenkinsicon from "../../assets/icons/jenkinsicon.svg";
 import kubernetesicon from "../../assets/icons/kubernetesicon.svg";
-import laravelicon from "../../assets/icons/laravelicon.svg";
 import linuxicon from "../../assets/icons/linuxicon.svg";
 import mongodbicon from "../../assets/icons/mongoicon.svg";
 import mysqlicon from "../../assets/icons/mysqlicon.svg";
@@ -173,24 +172,30 @@ export const projectsData = [
     },
   },
   {
-    title: "Développeur Web Full Stack",
-    title_EN: "Full Stack Web Developer",
+    title: "Développeur Full Stack en Alternance",
+    title_EN: "Full Stack Developer Apprenticeship",
     company: "ARAB SOFT",
     date: {
-      fr: "Février 2021 - Juin 2021",
-      en: "February 2021 - June 2021",
+      fr: "Septembre 2018 - Juin 2021",
+      en: "September 2018 - June 2021",
     },
     description: [
-      "Développement d'une application web pour la gestion de ventes à crédit, avec utilisation de Laravel, JavaScript, HTML5 et CSS.",
+      "Développé des composants front-end React/Node.js pour un système de gestion de stocks et clients",
+      "Contribué aux décisions techniques et aux revues de code en équipe de 10 personnes",
+      "Mis en œuvre des fonctionnalités suivant les méthodologies Agile/Scrum",
     ],
     description_EN: [
-      "Developed a web application for credit sales management, using Laravel, JavaScript, HTML5, and CSS.",
+      "Developed React/Node.js front-end components for a stock and customer management system",
+      "Contributed to technical decisions and code reviews within a team of 10 people",
+      "Implemented features following Agile/Scrum methodologies",
     ],
     technologies: [
-      { name: "Laravel", icon: laravelicon },
+      { name: "React", icon: reacticon },
+      { name: "Node.js", icon: nodejsicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "HTML5", icon: htmlicon },
       { name: "CSS", icon: cssicon },
+      { name: "GitLab", icon: gitlabicon },
     ],
     colors: {
       main: "main-btn",
