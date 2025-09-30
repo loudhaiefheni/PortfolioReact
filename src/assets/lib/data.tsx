@@ -400,7 +400,7 @@ export const sideBarLeftSocials = [
     altimgname: "mail",
   },
   {
-    link: "https://pdfelementcloud.wondershare.com/share/review/Ebolmh2BZuQP22RZffmR-qBAjltyENngoabs237NecXJwEPdsancFpEMUnBDIQxZ4PyPQAqrFeeJt3wtuL0gmHE1jccMhFAkhxv01mS3Y78",
+    link: "https://pdfelementcloud.wondershare.com/share/review/2AqwIMcbdxpceAVKpwzlr0s0XhqZ4V-L-4UNXxh4HN9LvQB4bqjiF6TGunExpF0hF1ogs-1MdB8Nd1olB_4-TLaEf6d9Bt-3D5g9yGZp7Tk",
     icon: FiFileText,
     altimgname: "cv",
   },
