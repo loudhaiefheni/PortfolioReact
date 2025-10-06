@@ -377,6 +377,7 @@ export const navLinks = [
   { fr: "Contact", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
+
 export const FooterLinks = [
   {
     fr: "© 2025 Heni LOUDHAIEF | Tous droits réservés",
